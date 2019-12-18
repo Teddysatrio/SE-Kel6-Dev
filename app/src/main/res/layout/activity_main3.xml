@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mubackground2copy"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#19b0bc"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/stpstopwatch"/>
+
+    <TextView
+        android:id="@+id/etWatch"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textSize="45dp"
+        android:textColor="@color/toska"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30sp">
+
+        <Button
+            android:id="@+id/bpause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="berhenti"
+            android:text="pause"
+            android:background="@color/toska"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/bmulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mulai"
+            android:text="start"
+            android:background="@color/toska"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/bulang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ulang"
+            android:text="Reset"
+            android:background="@color/toska"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lap"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="0 calories burned"
+        android:textColor="@color/toska"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
