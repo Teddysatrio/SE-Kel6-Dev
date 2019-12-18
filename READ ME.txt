@@ -1,0 +1,7 @@
+selamat malam bu, 
+saya ingin memberi keterangan mengenai keterlambatan pengumpulan tugas, 
+dikarenakan ada masalah saat meng commit file saya, sehingga tidak bisa upload ke repository saya
+dari 4 orang developer kelompok kami, 1 orang bernama austin sudah melebihi absen kehadiran
+dan 1 orang bernama koirurizki tidak berkontribusi untuk project ini dari awal hingga akhir
+
+terimkasih atas perhatiannya
